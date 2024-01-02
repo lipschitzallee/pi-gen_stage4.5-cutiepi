@@ -1,5 +1,5 @@
---- a/rootfs/boot/config.txt
-+++ b/rootfs/boot/config.txt
+--- a/rootfs/boot/firmware/config.txt
++++ b/rootfs/boot/firmware/config.txt
 @@ -39,7 +39,6 @@
  #arm_freq=800
  
