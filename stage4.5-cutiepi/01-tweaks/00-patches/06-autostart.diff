@@ -10,4 +10,3 @@
 +@xrandr --output HDMI-1 --rotate left
 +@xrandr --output HDMI-2 --rotate left
 +@xinput set-prop pointer:"Goodix Capacitive TouchScreen" --type=float "Coordinate Transformation Matrix" 0 -1 1 1 0 0 0 0 1
-+@xinput set-prop pointer:"Goodix Capacitive TouchScreen" --type=float "Coordinate Transformation Matrix" 0 -1 1 1 0 0 0 0 1
