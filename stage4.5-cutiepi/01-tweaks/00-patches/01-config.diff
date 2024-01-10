@@ -4,7 +4,7 @@
  #arm_freq=800
  
  # Uncomment some or all of these to enable the optional hardware interfaces
--#dtparam=i2c_arm=on
++dtparam=i2c_arm=on
  #dtparam=i2s=on
  #dtparam=spi=on
  
@@ -23,17 +23,17 @@
  otg_mode=1
 +avoid_warnings=2
 +
-+dtparam=i2c_arm=on
-+dtoverlay=cutiepi-panel
++#dtparam=i2c_arm=on
++#dtoverlay=cutiepi-panel
 +
 +enable_uart=1
-+dtoverlay=uart1
-+dtoverlay=i2c5,pins_10_11
-+dtoverlay=mpu6050-i2c5,interrupt=27
++#dtoverlay=uart1
++#dtoverlay=i2c5,pins_10_11
++#dtoverlay=mpu6050-i2c5,interrupt=27
 +
-+start_x=1
-+gpu_mem=128
-+dtoverlay=ov5647
++#start_x=1
++#gpu_mem=128
++#dtoverlay=ov5647
  
  [all]
  
